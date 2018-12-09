@@ -1,0 +1,11 @@
+[user]
+	email = asharma2@caltech.edu
+	name = Arnav Sharma
+[diff]
+	tool = vimdiff
+[color]
+	ui = true
+[commit]
+	gpgsign = true
+[alias]
+	sl = log --graph --oneline --abbrev-commit --decorate --all
