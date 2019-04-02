@@ -6,6 +6,7 @@
 [[ $- != *i* ]] && return
 
 eval "$(thefuck --alias)"
+eval "$(opam config env)"
 
 # aliases
 alias l='ls --color=auto'
@@ -18,6 +19,7 @@ alias deactivate-anaconda="source /opt/anaconda/bin/deactivate root"
 alias grep='grep --color=auto'
 alias nut='cat ~/.nut'
 alias qemu='qemu-system-i386'
+alias ocaml='rlwrap ocaml'
 
 # pretty much useless, just for bash practice
 calc() {
