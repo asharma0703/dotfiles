@@ -38,6 +38,8 @@ Plugin 'ervandew/supertab'
 Plugin 'Shougo/neco-syntax'
 Plugin 'Shougo/echodoc.vim'
 Plugin 'lervag/vimtex'
+Plugin 'jlanzarotta/bufexplorer'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
 " " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -105,3 +107,6 @@ let g:SuperTabDefaultCompletionType = "<c-n>"
 let g:vimtex_view_general_viewer = 'qpdfview'
 let g:vimtex_view_general_options = '--unique @pdf\#src:@tex:@line:@col'
 let g:vimtex_view_general_options_latexmk = '--unique'
+
+" Close NERDTree after opening a file
+let NERDTreeQuitOnOpen = 1
